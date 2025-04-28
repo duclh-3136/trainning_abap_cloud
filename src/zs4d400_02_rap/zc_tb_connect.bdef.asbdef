@@ -1,0 +1,23 @@
+projection implementation in class ZBP_C_TB_CONNECT unique;
+strict ( 2 );
+use draft;
+define behavior for ZC_TB_CONNECT alias Connection_Duclh
+use etag
+
+{
+  //use create;
+  use update;
+  //use delete;
+
+  use action Edit;
+  use action Activate;
+  use action Discard;
+  use action Resume;
+  use action Prepare;
+
+  field ( readonly )
+  CityFrom,
+  CityTo,
+  CountryFrom,
+  CountryTo;
+}

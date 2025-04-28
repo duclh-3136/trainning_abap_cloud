@@ -1,0 +1,11 @@
+@EndUserText: {
+  label: 'Service Definition for ZC_TB_CONNECT'
+}
+@ObjectModel: {
+  leadingEntity: {
+    name: 'ZC_TB_CONNECT'
+  }
+}
+define service ZUI_TB_CONNECT_O4 provider contracts odata_v4_ui {
+  expose ZC_TB_CONNECT as Connection_Duclh;
+}
